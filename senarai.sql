@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 22, 2021 at 05:00 AM
+-- Generation Time: Nov 22, 2021 at 05:55 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.24
 
@@ -34,13 +34,6 @@ CREATE TABLE `senarai` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `senarai`
---
-
-INSERT INTO `senarai` (`idsenarai`, `name`, `ic`) VALUES
-(10, 'INTAN', '010513021384');
-
---
 -- Indexes for dumped tables
 --
 
@@ -58,7 +51,7 @@ ALTER TABLE `senarai`
 -- AUTO_INCREMENT for table `senarai`
 --
 ALTER TABLE `senarai`
-  MODIFY `idsenarai` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `idsenarai` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

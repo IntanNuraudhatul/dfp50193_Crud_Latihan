@@ -8,13 +8,13 @@ require 'conn.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Record</title>
 </head>
 
 <body>
 <a href="tambah.php">Add New</a>
     <table border="1" cellpadding="8" cellspacing="0">
-        <tr bgcolor="#ffd700">
+        <tr bgcolor="#ff00dd">
             <th>Bil</th>
             <th>Nama</th>
             <th>No K/P</th>
